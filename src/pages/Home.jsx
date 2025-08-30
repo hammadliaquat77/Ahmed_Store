@@ -4,6 +4,8 @@ import Shipping_Section from '../components/Shipping_Section'
 import HotDeals from '../components/HotDeals'
 import ShopCategory from '@/components/ShopCategory'
 import UvImages from '@/components/UvImages'
+import Review from '@/components/Review'
+import Brands from '@/components/Brands'
 
 const Home = () => {
   return (
@@ -14,6 +16,9 @@ const Home = () => {
       <HotDeals/>
       <ShopCategory/>
       <UvImages/>
+      <Review/>
+      <Brands/>
+      
     </section>
   )
 }

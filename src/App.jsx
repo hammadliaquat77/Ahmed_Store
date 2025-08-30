@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import './App.css'
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
+import Footer from "./components/Footer";
 
 function App() {
 
@@ -14,6 +15,8 @@ function App() {
       
         <Navbar/>
         <Home/>
+        <Footer/>
+
 
     </>
   )

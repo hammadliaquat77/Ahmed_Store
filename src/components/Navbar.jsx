@@ -3,6 +3,8 @@ import { NavLink } from 'react-router-dom'
 import { FiMenu } from "react-icons/fi";
 import { HiXMark } from "react-icons/hi2";
 import { FaShoppingCart } from "react-icons/fa";
+// import {NavLink} from "react-scroll";
+import { Link } from 'react-scroll';
 
 function Header() {
 
@@ -18,11 +20,12 @@ function Header() {
                 <h1 className='text-2xl font-bold'>Hammad</h1>
             {/* Desktop */}
             <div className='hidden md:flex space-x-4'>
-                <NavLink to="/"  className='text-md hover:text-gray-500 hover:transition-all duration-300 hover:font-bold'>Home</NavLink>
-                <NavLink to="/about"  className='text-md hover:text-gray-500 hover:transition-all duration-300 hover:font-bold'>About</NavLink>
-                <NavLink to="/contact" className='text-md hover:text-gray-500 hover:transition-all duration-300 hover:font-bold'>Contact</NavLink>
-                <NavLink to="/products" className='text-md hover:text-gray-500 hover:transition-all duration-300 hover:font-bold'>Products</NavLink>
-                <NavLink to="/cart" className='text-md hover:text-gray-500 hover:transition-all duration-300 hover:font-bold'><FaShoppingCart size={24} /></NavLink>
+                <Link to="home"  className='text-md hover:text-gray-500 hover:transition-all duration-300 hover:font-bold'>Home</Link>
+                <Link to="/"  className='text-md hover:text-gray-500 hover:transition-all duration-300 hover:font-bold'>Category</Link>
+                <Link to="/contact" className='text-md hover:text-gray-500 hover:transition-all duration-300 hover:font-bold'>Deals</Link>
+                <Link to="/products" className='text-md hover:text-gray-500 hover:transition-all duration-300 hover:font-bold'>Products</Link>
+                <Link to="/"  className='text-md hover:text-gray-500 hover:transition-all duration-300 hover:font-bold'>Contact</Link>
+                <Link to="/cart" className='text-md hover:text-gray-500 hover:transition-all duration-300 hover:font-bold'><FaShoppingCart size={24} /></Link>
             </div>
 
             {/* Mobile Toggle Btn */}
