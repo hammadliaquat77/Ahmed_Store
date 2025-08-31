@@ -11,7 +11,7 @@ import Cable_1 from "../assets/Products/Cabel_1.png";
 import Handfree_1 from "../assets/Products/HandFree_1.png";
 import Charger_3 from "../assets/Products/Charger_3.png";
 import Charger_4 from "../assets/Products/Charger_4.png";
-import Pen_3 from "../assets/Products/Pen_3.png";
+// import Pen_3 from "../assets/Products/Pen_3.png";
 
 
 // Dummy Products Data
