@@ -17,15 +17,64 @@ function Header() {
     <div>
         <div className='w-full bg-zinc-900 text-white p-4 h-16 md:fixed z-50 fixed'>
             <div className='container mx-auto flex justify-between items-center md:w-[85%]'>
-                <h1 className='text-2xl font-bold'>Hammad</h1>
+                <h1 className='text-2xl font-bold'>Asif Store</h1>
             {/* Desktop */}
             <div className='hidden md:flex space-x-4'>
-                <Link to="home"  className='text-md hover:text-gray-500 hover:transition-all duration-300 hover:font-bold'>Home</Link>
-                <Link to="/"  className='text-md hover:text-gray-500 hover:transition-all duration-300 hover:font-bold'>Category</Link>
-                <Link to="/contact" className='text-md hover:text-gray-500 hover:transition-all duration-300 hover:font-bold'>Deals</Link>
-                <Link to="/products" className='text-md hover:text-gray-500 hover:transition-all duration-300 hover:font-bold'>Products</Link>
-                <Link to="/"  className='text-md hover:text-gray-500 hover:transition-all duration-300 hover:font-bold'>Contact</Link>
-                <Link to="/cart" className='text-md hover:text-gray-500 hover:transition-all duration-300 hover:font-bold'><FaShoppingCart size={24} /></Link>
+                <Link 
+                to="home"  
+                smooth={true}
+                duration={500}
+                offset={-70}
+                activeClass="active" 
+                className='text-md hover:text-gray-500 hover:transition-all duration-300 hover:font-bold cursor-pointer'>
+                Home
+                </Link>
+
+                <Link 
+                to="category"  
+                smooth={true}
+                duration={500}
+                offset={-70}
+                activeClass="active"
+                className='text-md hover:text-gray-500 hover:transition-all duration-300 hover:font-bold cursor-pointer'>
+                Category
+                </Link>
+
+                <Link 
+                to="deals"
+                smooth={true}
+                duration={500}
+                offset={-70}
+                activeClass="active" 
+                className='text-md hover:text-gray-500 hover:transition-all duration-300 hover:font-bold cursor-pointer'>
+                Deals
+                </Link>
+
+                <Link 
+                to="/products" 
+                smooth={true}
+                duration={500}
+                offset={-70}
+                activeClass="active"
+                className='text-md hover:text-gray-500 hover:transition-all duration-300 hover:font-bold cursor-pointer'>
+                Products
+                </Link>
+
+                <Link 
+                to="contact"
+                smooth={true}
+                duration={500}
+                offset={-70}
+                activeClass="active"  
+                className='text-md hover:text-gray-500 hover:transition-all duration-300 hover:font-bold cursor-pointer'>
+                Contact
+                </Link>
+
+                <Link 
+                to="/cart" 
+                className='text-md hover:text-gray-500 hover:transition-all duration-300 hover:font-bold cursor-pointer'>
+                <FaShoppingCart size={24} />
+                </Link>
             </div>
 
             {/* Mobile Toggle Btn */}
@@ -38,11 +87,64 @@ function Header() {
             {/* Mobile Menu */}
             {isOpen && (
                 <div className='top-16 left-0 w-full bg-black h-full flex flex-col justify-center items-center text-white p-4 md:hidden z-50 fixed'>
-                    <NavLink to="/" onClick={() => setIsOpen(false)} className='block py-2 text-2xl hover:text-gray-500 hover:transition-all duration-300 hover:font-bold'>Home</NavLink>
-                    <NavLink to="/about" onClick={() => setIsOpen(false)} className='block py-2 text-2xl hover:text-gray-500 hover:transition-all duration-300 hover:font-bold'>About</NavLink>
-                    <NavLink to="/contact" onClick={() => setIsOpen(false)} className='block py-2 text-2xl hover:text-gray-500 hover:transition-all duration-300 hover:font-bold'>Contact</NavLink>
-                    <NavLink to="/products" onClick={() => setIsOpen(false)} className='block py-2 text-2xl hover:text-gray-500 hover:transition-all duration-300 hover:font-bold'>Products</NavLink>
-                    <NavLink to="/cart" onClick={() => setIsOpen(false)} className='block py-2 text-2xl hover:text-gray-500 hover:transition-all duration-300 hover:font-bold'><FaShoppingCart size={28} /></NavLink>
+                    <Link to="home" 
+                    smooth={true}
+                    duration={500}
+                    offset={-70}
+                    activeClass="active" 
+                    onClick={() => setIsOpen(false)} className='block py-2 text-2xl hover:text-gray-500 hover:transition-all duration-300 hover:font-bold'>
+                    Home
+                    </Link>
+
+                    <Link 
+                    to="category" 
+                    smooth={true}
+                    duration={500}
+                    offset={-70}
+                    activeClass="active"
+                    onClick={() => setIsOpen(false)} 
+                    className='block py-2 text-2xl hover:text-gray-500 hover:transition-all duration-300 hover:font-bold'>Category</Link>
+
+                    <Link 
+                    to="deals"
+                    smooth={true}
+                    duration={500}
+                    offset={-70}
+                    activeClass="active" 
+                    onClick={() => setIsOpen(false)} className='block py-2 text-2xl hover:text-gray-500 hover:transition-all duration-300 hover:font-bold'>
+                    Deals
+                    </Link>
+
+                    <Link 
+                    to="products" 
+                    smooth={true}
+                    duration={500}
+                    offset={-70}
+                    activeClass="active"
+                    onClick={() => setIsOpen(false)} className='block py-2 text-2xl hover:text-gray-500 hover:transition-all duration-300 hover:font-bold'>
+                    Products
+                    </Link>
+
+                    <Link 
+                    to="contact"
+                    smooth={true}
+                    duration={500}
+                    offset={-70}
+                    activeClass="active" 
+                    onClick={() => setIsOpen(false)} className='block py-2 text-2xl hover:text-gray-500 hover:transition-all duration-300 hover:font-bold'>
+                    Contact
+                    </Link>
+
+                    <Link 
+                    to="contact" 
+                    smooth={true}
+                   duration={500}
+                   offset={-70}
+                   activeClass="active"
+                   onClick={() => setIsOpen(false)} className='block py-2 text-2xl hover:text-gray-500 hover:transition-all duration-300 hover:font-bold'>
+                <FaShoppingCart size={28} />
+                </Link>
+
                 </div>
             )}
             </div>

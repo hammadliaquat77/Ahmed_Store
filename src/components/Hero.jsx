@@ -44,9 +44,9 @@ const Hero = ({ handleOrderPopup }) => {
   };
 
   return (
-    <div
-      className="relative overflow-hidden min-h-[550px] sm:min-h-[650px] flex justify-center items-center w-full bg-cover bg-center"
-      style={{ backgroundImage: `url(${BgImage})`,  }} //  background image lag gayi
+    <div id="home"
+      className="relative overflow-hidden min-h-[550px] sm:min-h-[650px] flex justify-center items-center w-full bg-cover bg-center pt-10 md:pt-0"
+      style={{ backgroundImage: `url(${BgImage})`,  }}
     >
       {/* overlay (optional) */}
       <div className="absolute inset-0 bg-black/30"></div> 
@@ -61,7 +61,7 @@ const Hero = ({ handleOrderPopup }) => {
                 <div className="flex flex-col justify-center gap-4 pt-12 sm:pt-0 text-center sm:text-left order-1 sm:order-1">
                   <h1
                     data-aos="zoom-out"
-                    className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white"
+                    className="text-3xl sm:text-6xl lg:text-7xl font-bold text-white"
                   >
                     {data.title}
                   </h1>

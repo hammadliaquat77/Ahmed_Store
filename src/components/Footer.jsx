@@ -3,7 +3,7 @@ import { FiFacebook, FiInstagram, FiYoutube } from "react-icons/fi";
 
 function Footer() {
   return (
-    <footer className="bg-gray-800 text-white py-8 mt-12">
+    <footer id="contact" className="bg-gray-800 text-white py-8 mt-12">
       <div className="w-[80%] mx-auto flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
 
         {/* Logo / Brand */}

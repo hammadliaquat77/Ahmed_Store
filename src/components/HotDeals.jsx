@@ -20,7 +20,7 @@ const deals = [
 
 function HotDeals() {
   return (
-    <section className="md:h-[360px] w-[85%] mx-auto">
+    <section id="deals" className="md:h-[360px] w-[85%] mx-auto">
       <div className="w-full flex flex-col">
         <h1 className="md:text-3xl text-2xl font-semibold mb-6 mt-8">Hot Deals</h1>
 
