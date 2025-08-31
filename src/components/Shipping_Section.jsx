@@ -2,9 +2,22 @@
 import React from 'react'
 import { IoCubeOutline } from "react-icons/io5";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
+
 function Shipping_Section() {
+
+    AOS.init({
+    duration: 1000,
+    once: false,
+    mirror: true,
+    });
+  
+
   return (
-    <section className='md:w-[80%] w-[80%] mx-auto h-[400px] md:h-[200px] '>
+    <section className='md:w-[80%] w-[80%] mx-auto h-[400px] md:h-[200px] overflow-hidden'>
       <div className='main flex justify-between items-center h-[400px] md:h-[200px] sm:h-[300px]'>
 
         {/* sab cards parent me flex-between */}
@@ -12,7 +25,7 @@ function Shipping_Section() {
         {/* <div className='w-full flex flex-col md:flex-row gap-7 md:justify-between sm:justify-between items-center'> */}
 
           {/* card 1 */}
-          <div className='flex gap-4'>
+          <div data-aos="fade-right" className='flex gap-4'>
             <div className='h-12 w-12 bg-zinc-200 rounded-full flex justify-center items-center'>
               <IoCubeOutline size={24} />
             </div>
@@ -25,7 +38,7 @@ function Shipping_Section() {
           </div>
 
           {/* card 2 */}
-          <div className='flex gap-4'>
+          <div data-aos="fade-right" className='flex gap-4'>
             <div className='h-12 w-12 bg-zinc-200 rounded-full flex justify-center items-center'>
               <IoCubeOutline size={24} />
             </div>
@@ -38,7 +51,7 @@ function Shipping_Section() {
           </div>
 
           {/* card 3 */}
-          <div className='flex gap-4'>
+          <div data-aos="fade-right" className='flex gap-4'>
             <div className='h-12 w-12 bg-zinc-200 rounded-full flex justify-center items-center'>
               <IoCubeOutline size={24} />
             </div>
@@ -51,7 +64,7 @@ function Shipping_Section() {
           </div>
 
           {/* card 4 */}
-          <div className='flex gap-4'>
+          <div data-aos="fade-right" className='flex gap-4'>
             <div className='h-12 w-12 bg-zinc-200 rounded-full flex justify-center items-center'>
               <IoCubeOutline size={24} />
             </div>

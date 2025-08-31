@@ -1,4 +1,8 @@
 import React, { useRef } from "react"
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 import {
     Carousel,
     CarouselContent,
@@ -61,6 +65,13 @@ const reviews = [
 
 
 function Review() {
+
+    AOS.init({
+        duration: 1000,
+        once: false,
+        mirror: true,
+    });
+
     const plugin = useRef(Autoplay({ delay: 3000, stopOnInteraction: false }))
 
     return (
@@ -71,7 +82,7 @@ function Review() {
                 <CarouselContent>
                     {reviews.map((review) => (
                         <CarouselItem key={review.id} className="basis-full sm:basis-1/2 lg:basis-1/3 p-2">
-                            <div className="border rounded-xl shadow-md bg-[#2F3039] h-full flex flex-col justify-between text-white p-6">
+                            <div data-aos="fade-up" className="border rounded-xl shadow-md bg-[#2F3039] h-full flex flex-col justify-between text-white p-6">
                                 <p className="text-sm mb-2">Our Customer Review</p>
                                 <p className="text-sm mb-2">{review.review}</p>
                                 <p className="text-xl mb-2">{review.description}</p>

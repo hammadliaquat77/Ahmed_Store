@@ -3,8 +3,9 @@ import { NavLink } from 'react-router-dom'
 import { FiMenu } from "react-icons/fi";
 import { HiXMark } from "react-icons/hi2";
 import { FaShoppingCart } from "react-icons/fa";
-// import {NavLink} from "react-scroll";
 import { Link } from 'react-scroll';
+import { motion } from "motion/react"
+
 
 function Header() {
 
@@ -17,7 +18,12 @@ function Header() {
     <div>
         <div className='w-full bg-zinc-900 text-white p-4 h-16 md:fixed z-50 fixed'>
             <div className='container mx-auto flex justify-between items-center md:w-[85%]'>
-                <h1 className='text-2xl font-bold uppercase'>Asif Store</h1>
+                <motion.div
+                  animate={{ scale: [1, 1.1, 1] }}
+                  transition={{ repeat: Infinity, duration: 1 }}
+                >
+                  <h1 className='text-2xl font-bold uppercase'>Asif Store</h1>
+                </motion.div>
             {/* Desktop */}
             <div className='hidden md:flex space-x-4'>
                 <Link 

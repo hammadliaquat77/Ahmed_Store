@@ -2,6 +2,10 @@ import React from 'react'
 import { Cable, Headphones, Smartphone, Battery, Watch, Speaker, Shield } from 'lucide-react'
 import { BsEarbuds } from "react-icons/bs";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
 import {
   Carousel,
   CarouselContent,
@@ -23,6 +27,14 @@ const deals = [
 ]
 
 function ShopCategory() {
+
+      AOS.init({
+      duration: 1000,
+      once: false,
+      mirror: true,
+      });
+  
+
   return (
     <section id='category' className="md:h-[500px] w-[85%] mx-auto">
       <div className="w-full flex flex-col">
@@ -38,6 +50,7 @@ function ShopCategory() {
                 <CarouselItem
                   key={deal.id}
                   className="basis-full sm:basis-1/2 lg:basis-1/6 flex justify-center"
+                  data-aos="zoom-in-up"
                 >
                   <div className="flex flex-col w-full items-center">
                     <div className="w-36 h-36 border rounded-full shadow-md flex items-center justify-center bg-white">

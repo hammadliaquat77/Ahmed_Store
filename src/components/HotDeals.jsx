@@ -1,4 +1,7 @@
 import Cover from "@/assets/HotDeal/Deal_1.png"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 import React from "react"
 import {
@@ -19,6 +22,14 @@ const deals = [
 ]
 
 function HotDeals() {
+
+      AOS.init({
+      duration: 1000,
+      once: false,
+      mirror: true,
+      });
+  
+
   return (
     <section id="deals" className="md:h-[360px] w-[85%] mx-auto">
       <div className="w-full flex flex-col">
@@ -35,6 +46,7 @@ function HotDeals() {
                 <CarouselItem
                   key={deal.id}
                   className="basis-full sm:basis-1/2 lg:basis-1/4"
+                  data-aos="flip-right"
                 >
                   <div className="p-4 border rounded-xl shadow-md flex flex-col items-center justify-center bg-white">
                     <img

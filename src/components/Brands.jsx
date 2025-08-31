@@ -2,7 +2,7 @@ import React from 'react'
 
 function Brands() {
   return (
-    <section className='w-[85%] mx-auto mt-[10px]'>
+    <section className='w-[85%] mx-auto mt-[10px] pt-20 md:pt-0'>
           <div className='w-full h-[100px]  shadow-lg '>
             <marquee behavior="" direction="left">
             <div className='flex md:justify-between gap-10'>

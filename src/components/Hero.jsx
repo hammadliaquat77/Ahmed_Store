@@ -5,6 +5,10 @@ import Image3 from "../assets/Hero/Image_6.png";
 import Slider from "react-slick";
 import BgImage from "../assets/Hero/Bg_7.jpg";
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+
 const ImageList = [
   {
     id: 1,
@@ -43,6 +47,14 @@ const Hero = ({ handleOrderPopup }) => {
     pauseOnFocus: true,
   };
 
+
+  AOS.init({
+  duration: 1000,
+  once: false,
+  mirror: true,
+  });
+
+
   return (
     <div id="home"
       className="relative overflow-hidden min-h-[550px] sm:min-h-[650px] flex justify-center items-center w-full bg-cover bg-center pt-10 md:pt-0"
@@ -60,7 +72,7 @@ const Hero = ({ handleOrderPopup }) => {
                 {/* text content */}
                 <div className="flex flex-col justify-center gap-4 pt-12 sm:pt-0 text-center sm:text-left order-1 sm:order-1">
                   <h1
-                    data-aos="zoom-out"
+                    data-aos="fade-down"
                     className="text-3xl sm:text-6xl lg:text-7xl font-bold text-white"
                   >
                     {data.title}

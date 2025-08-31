@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import { FiFacebook, FiInstagram, FiYoutube } from "react-icons/fi";
 
 function Footer() {
@@ -14,10 +15,10 @@ function Footer() {
 
         {/* Links */}
         <div className="flex flex-col md:flex-row gap-6">
-          <a href="#home" className="hover:text-gray-300">Home</a>
-          <a href="#shop" className="hover:text-gray-300">Shop</a>
-          <a href="#about" className="hover:text-gray-300">About</a>
-          <a href="#contact" className="hover:text-gray-300">Contact</a>
+          <Link to="home" className="hover:text-gray-300">Home</Link>
+          <Link to="shop" className="hover:text-gray-300">Shop</Link>
+          <Link to="about" className="hover:text-gray-300">About</Link>
+          <Link to="contact" className="hover:text-gray-300">Contact</Link>
         </div>
 
         {/* Contact / User Info */}
