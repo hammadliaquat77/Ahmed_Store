@@ -88,53 +88,53 @@
               {/* Mobile Menu */}
               {isOpen && (
                   <div className='top-16 left-0 w-full bg-black h-full flex flex-col justify-center items-center text-white p-4 md:hidden z-50 fixed'>
-                      <Link to="home" 
+                      <NavLink to="/#home" 
                       smooth={true}
                       duration={500}
                       offset={-70}
                       activeClass="active" 
                       onClick={() => setIsOpen(false)} className='block py-2 text-2xl hover:text-gray-500 hover:transition-all duration-300 hover:font-bold'>
                       Home
-                      </Link>
+                      </NavLink>
 
-                      <Link 
-                      to="category" 
+                      <NavLink 
+                      to="/#category" 
                       smooth={true}
                       duration={500}
                       offset={-70}
                       activeClass="active"
                       onClick={() => setIsOpen(false)} 
-                      className='block py-2 text-2xl hover:text-gray-500 hover:transition-all duration-300 hover:font-bold'>Category</Link>
+                      className='block py-2 text-2xl hover:text-gray-500 hover:transition-all duration-300 hover:font-bold'>Category</NavLink>
 
-                      <Link 
-                      to="deals"
+                      <NavLink 
+                      to="/#deals"
                       smooth={true}
                       duration={500}
                       offset={-70}
                       activeClass="active" 
                       onClick={() => setIsOpen(false)} className='block py-2 text-2xl hover:text-gray-500 hover:transition-all duration-300 hover:font-bold'>
                       Deals
-                      </Link>
+                      </NavLink>
 
-                      <Link 
-                      to="products" 
+                      <NavLink 
+                      to="/products" 
                       smooth={true}
                       duration={500}
                       offset={-70}
                       activeClass="active"
                       onClick={() => setIsOpen(false)} className='block py-2 text-2xl hover:text-gray-500 hover:transition-all duration-300 hover:font-bold'>
                       Products
-                      </Link>
+                      </NavLink>
 
-                      <Link 
-                      to="contact"
+                      <NavLink 
+                      to="/#contact"
                       smooth={true}
                       duration={500}
                       offset={-70}
                       activeClass="active" 
                       onClick={() => setIsOpen(false)} className='block py-2 text-2xl hover:text-gray-500 hover:transition-all duration-300 hover:font-bold'>
                       Contact
-                      </Link>
+                      </NavLink>
 
                   </div>
               )}
