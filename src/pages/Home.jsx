@@ -7,10 +7,26 @@ import UvImages from '@/components/UvImages'
 import Review from '@/components/Review'
 import Brands from '@/components/Brands'
 
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
+
 const Home = () => {
+
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const id = location.hash.replace("#", "");
+      const element = document.getElementById(id);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [location]);
+
   return (
     <section className='md:w-[100%] bg-white min:h-[100%] mx-auto pt-16'>
-      {/* <div>hello</div> */}
+      
       <Hero/>
       <Shipping_Section/>
       <HotDeals/>
