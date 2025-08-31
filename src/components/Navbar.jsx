@@ -17,7 +17,7 @@ function Header() {
     <div>
         <div className='w-full bg-zinc-900 text-white p-4 h-16 md:fixed z-50 fixed'>
             <div className='container mx-auto flex justify-between items-center md:w-[85%]'>
-                <h1 className='text-2xl font-bold'>Asif Store</h1>
+                <h1 className='text-2xl font-bold uppercase'>Asif Store</h1>
             {/* Desktop */}
             <div className='hidden md:flex space-x-4'>
                 <Link 

@@ -8,7 +8,7 @@ function Footer() {
 
         {/* Logo / Brand */}
         <div className="flex flex-col mb-4 md:mb-0">
-          <h1 className="text-2xl font-bold">MyBrand</h1>
+          <h1 className="text-2xl font-bold uppercase">Asif Store</h1>
           <p className="text-gray-400 text-sm">© {new Date().getFullYear()} All Rights Reserved</p>
         </div>
 
