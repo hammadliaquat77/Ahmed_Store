@@ -14,7 +14,7 @@ import ScrollToHash from "./components/ScrollToTop";
 function App() {
 
   return (
-    <>
+    <> 
       <Navbar />
       <ScrollToHash/>
       <Routes>

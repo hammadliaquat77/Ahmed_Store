@@ -24,6 +24,24 @@ const productsData = [
   { id: 13, name: "HandFree Earphones", price: 400, category: "Earbuds", image: "/Products/HandFree_1.png" },
 ];
 
+/*************  ✨ Windsurf Command ⭐  *************/
+/**
+ * A page that displays a list of products in a grid, with the ability to
+ * filter by category and add/remove items from a cart. The cart is displayed
+ * as a floating button that can be clicked to open the cart component.
+ *
+ * @param {Object} props The component props
+ * @param {Object[]} props.productsData The list of products to display
+ * @param {string} props.selectedCategory The currently selected category
+ * @param {boolean} props.cartOpen Whether the cart is currently open
+ * @param {Function} props.addToCart Add a product to the cart
+ * @param {Function} props.increment Increment the quantity of a product in the cart
+ * @param {Function} props.decrement Decrement the quantity of a product in the cart
+ * @param {Function} props.removeItem Remove a product from the cart
+ * @param {number} props.totalPrice The total price of all items in the cart
+ * @param {Function} props.placeOrder Place an order with the current cart items
+ */
+/*******  4cd1541b-c263-4a9b-9529-a522e89237c2  *******/
 function Products() {
   const [cart, setCart] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -83,7 +101,7 @@ function Products() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 pb-24 px-5">
+    <div className="min-h-screen bg-gray-100 pb-24 px-5 md:pt-16 pt-16">
       <h1 className="text-3xl font-bold text-center py-8">All Mobile Accessories</h1>
 
       {/* Category Filter */}
@@ -157,3 +175,21 @@ function Products() {
 }
 
 export default Products;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
