@@ -1,9 +1,5 @@
 import React from "react";
-import Image1 from "../assets/Hero/Image_4.png";
-import Image2 from "../assets/Hero/Image_5.png";
-import Image3 from "../assets/Hero/Image_6.png";
 import Slider from "react-slick";
-import BgImage from "../assets/Hero/Bg_7.jpg";
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -12,21 +8,21 @@ import 'aos/dist/aos.css';
 const ImageList = [
   {
     id: 1,
-    img: Image1,
+    img: "/Hero/Image_4.png",
     title: "Flat 40% Off on Premium Phone Covers",
     description:
       "Protect your phone in style with trendy, durable, and slim-fit mobile covers. Limited-time offer!",
   },
   {
     id: 2,
-    img: Image2,
+    img: "/Hero/Image_5.png",
     title: "Up to 30% Off on Smart Watches",
     description:
       "Track fitness, calls, and style with our latest range of smartwatches at unbeatable prices.",
   },
   {
     id: 3,
-    img: Image3,
+    img: "/Hero/Image_6.png",
     title: "Mega Sale on Earphones & Chargers",
     description:
       "Get crystal-clear sound and fast charging accessories with discounts up to 50% off.",
@@ -58,7 +54,7 @@ const Hero = ({ handleOrderPopup }) => {
   return (
     <div id="home"
       className="relative overflow-hidden min-h-[550px] sm:min-h-[650px] flex justify-center items-center w-full bg-cover bg-center pt-10 md:pt-0"
-      style={{ backgroundImage: `url(${BgImage})`,  }}
+      style={{ backgroundImage: `url(${"/Hero/Bg_7.jpg"})`,  }}
     >
       {/* overlay (optional) */}
       <div className="absolute inset-0 bg-black/30"></div> 

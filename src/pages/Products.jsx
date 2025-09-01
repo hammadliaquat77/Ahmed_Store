@@ -2,16 +2,6 @@ import React, { useState } from "react";
 import { FaShoppingCart } from "react-icons/fa";
 import Cart from "../components/Cart"; 
 
-import Charger_1 from "../assets/Products/Charger_1.png";
-import Charger_2 from "../assets/Products/Charger_2.png";
-import Boya from "../assets/Products/Boya.png";
-import Pen_1 from "../assets/Products/Pen_1.png";
-import Pen_2 from "../assets/Products/Pen_2.png";
-import Cable_1 from "../assets/Products/Cabel_1.png";
-import Handfree_1 from "../assets/Products/HandFree_1.png";
-import Charger_3 from "../assets/Products/Charger_3.png";
-import Charger_4 from "../assets/Products/Charger_4.png";
-import Pen_3 from "../assets/Products/Pen_3.png";
 
 
 // Dummy Products Data
@@ -20,18 +10,18 @@ const productsData = [
   { id: 2, name: "Power Bank 10000mAh", price: 3200, category: "Power Banks", image: "https://via.placeholder.com/200x150?text=PowerBank" },
   { id: 3, name: "Smart Watch", price: 4500, category: "Smart Watches", image: "https://via.placeholder.com/200x150?text=SmartWatch" },
   { id: 4, name: "Bluetooth Speaker", price: 3800, category: "Speakers", image: "https://via.placeholder.com/200x150?text=Speaker" },
-  { id: 5, name: "Fast Charger 25W", price: 1500, category: "Chargers", image: Charger_1 },
-  { id: 9, name: "Fast Charger 20W", price: 300, category: "Chargers", image: Charger_2 },
-  { id: 10, name: "Pen", price: 300, category: "Accecories", image: Pen_1 },
-  { id: 12, name: "Pen", price: 300, category: "Accecories", image: Pen_2 },
-  { id: 16, name: "Pen", price: 300, category: "Accecories", image: Pen_3 },
-  { id: 11, name: "Boya Mic", price: 300, category: "Speakers", image: Boya },
-  { id: 14, name: "Boya Mic", price: 300, category: "Chargers", image: Charger_3 },
-  { id: 15, name: "Boya Mic", price: 300, category: "Chargers", image: Charger_4 },
+  { id: 5, name: "Fast Charger 25W", price: 1500, category: "Chargers", image: "/Products/Charger_1.png" },
+  { id: 9, name: "Fast Charger 20W", price: 300, category: "Chargers", image: "/Products/Charger_2.png" },
+  { id: 10, name: "Pen", price: 300, category: "Accecories", image: "/Products/Pen_1.png" },
+  { id: 12, name: "Pen", price: 300, category: "Accecories", image: "/Products/Pen_2.png" },
+  { id: 16, name: "Pen", price: 300, category: "Accecories", image: "/Products/Pen_3.png" },
+  { id: 11, name: "Boya Mic", price: 300, category: "Speakers", image: "/Products/Boya.png" },
+  { id: 14, name: "Boya Mic", price: 300, category: "Chargers", image: "/Products/Charger_3.png" },
+  { id: 15, name: "Boya Mic", price: 300, category: "Chargers", image: "/Products/Charger_4.png" },
   { id: 6, name: "Mobile Back Cover", price: 800, category: "Covers", image: "https://via.placeholder.com/200x150?text=Cover" },
-  { id: 7, name: "Type-C Cable", price: 700, category: "Chargers", image: Cable_1 },
+  { id: 7, name: "Type-C Cable", price: 700, category: "Chargers", image: "/Products/Cabel_1.png"},
   { id: 8, name: "Neckband Earphones", price: 2000, category: "Earbuds", image: "https://via.placeholder.com/200x150?text=Neckband" },
-  { id: 13, name: "HandFree Earphones", price: 400, category: "Earbuds", image: Handfree_1 },
+  { id: 13, name: "HandFree Earphones", price: 400, category: "Earbuds", image: "/Products/HandFree_1.png" },
 ];
 
 function Products() {

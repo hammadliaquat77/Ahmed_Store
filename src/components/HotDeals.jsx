@@ -1,4 +1,4 @@
-import Cover from "@/assets/HotDeal/Deal_1.png"
+// import Cover from "@/assets/HotDeal/Deal_1.png"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -13,12 +13,12 @@ import {
 } from "@/components/ui/carousel"
 
 const deals = [
-  { id: 1, title: "Pizza Deal", price: "$10", img: Cover },
-  { id: 2, title: "Burger Combo", price: "$7", img: Cover },
-  { id: 3, title: "Pasta Offer", price: "$12", img: Cover },
-  { id: 4, title: "Fries Pack", price: "$5", img: Cover },
-  { id: 5, title: "Cold Drink", price: "$3", img: Cover },
-  { id: 6, title: "Family Meal", price: "$20", img: Cover },
+  { id: 1, title: "Pizza Deal", price: "$10", img: "/HotDeal/Deal_1.png" },
+  { id: 2, title: "Burger Combo", price: "$7", img: "/HotDeal/Deal_1.png" },
+  { id: 3, title: "Pasta Offer", price: "$12", img: "/HotDeal/Deal_1.png" },
+  { id: 4, title: "Fries Pack", price: "$5", img: "/HotDeal/Deal_1.png" },
+  { id: 5, title: "Cold Drink", price: "$3", img: "/HotDeal/Deal_1.png" },
+  { id: 6, title: "Family Meal", price: "$20", img: "/HotDeal/Deal_1.png"},
 ]
 
 function HotDeals() {

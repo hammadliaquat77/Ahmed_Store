@@ -25,7 +25,7 @@ const Home = () => {
   }, [location]);
 
   return (
-    <section className='md:w-[100%] bg-white min:h-[100%] mx-auto pt-16'>
+    <section className='md:w-[100%] bg-white min:h-[100%] mx-auto pt-16 '>
       
       <Hero/>
       <Shipping_Section/>
