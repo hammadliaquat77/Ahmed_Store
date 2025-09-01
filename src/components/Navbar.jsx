@@ -118,9 +118,9 @@
 
                       <NavLink 
                       to="/products" 
-                      // smooth={true}
-                      // duration={500}
-                      // offset={-70}
+                      smooth={true}
+                      duration={500}
+                      offset={-70}
                       activeClass="active"
                       onClick={() => setIsOpen(false)} className='block py-2 text-2xl hover:text-gray-500 hover:transition-all duration-300 hover:font-bold'>
                       Products
