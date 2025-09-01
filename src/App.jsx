@@ -8,14 +8,15 @@ import Footer from "./components/Footer";
 import Products from "./pages/Products";
 
 import { Routes, Route } from "react-router-dom";
-import ScrollToTop from "./components/ScrollToTop";
+import ScrollToHash from "./components/ScrollToTop";
+
 
 function App() {
 
   return (
     <>
       <Navbar />
-      <ScrollToTop/>
+      <ScrollToHash/>
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/products" element={<Products/>} />
