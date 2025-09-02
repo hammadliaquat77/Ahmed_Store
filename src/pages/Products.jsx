@@ -2,46 +2,10 @@ import React, { useState } from "react";
 import { FaShoppingCart } from "react-icons/fa";
 import Cart from "../components/Cart"; 
 
+// Products Data
+import productsData from "../Data/data.js"
 
 
-// Dummy Products Data
-const productsData = [
-  { id: 1, name: "Wireless Earbuds", price: 2500, category: "Earbuds", image: "https://via.placeholder.com/200x150?text=Earbuds" },
-  { id: 2, name: "Power Bank 10000mAh", price: 3200, category: "Power Banks", image: "https://via.placeholder.com/200x150?text=PowerBank" },
-  { id: 3, name: "Smart Watch", price: 4500, category: "Smart Watches", image: "https://via.placeholder.com/200x150?text=SmartWatch" },
-  { id: 4, name: "Bluetooth Speaker", price: 3800, category: "Speakers", image: "https://via.placeholder.com/200x150?text=Speaker" },
-  { id: 5, name: "Fast Charger 25W", price: 1500, category: "Chargers", image: "/Products/Charger_1.png" },
-  { id: 9, name: "Fast Charger 20W", price: 300, category: "Chargers", image: "/Products/Charger_2.png" },
-  { id: 10, name: "Pen", price: 300, category: "Accecories", image: "/Products/Pen_1.png" },
-  { id: 12, name: "Pen", price: 300, category: "Accecories", image: "/Products/Pen_2.png" },
-  { id: 16, name: "Pen", price: 300, category: "Accecories", image: "/Products/Pen_3.png" },
-  { id: 11, name: "Boya Mic", price: 300, category: "Speakers", image: "/Products/Boya.png" },
-  { id: 14, name: "Boya Mic", price: 300, category: "Chargers", image: "/Products/Charger_3.png" },
-  { id: 15, name: "Boya Mic", price: 300, category: "Chargers", image: "/Products/Charger_4.png" },
-  { id: 6, name: "Mobile Back Cover", price: 800, category: "Covers", image: "https://via.placeholder.com/200x150?text=Cover" },
-  { id: 7, name: "Type-C Cable", price: 700, category: "Chargers", image: "/Products/Cabel_1.png"},
-  { id: 8, name: "Neckband Earphones", price: 2000, category: "Earbuds", image: "https://via.placeholder.com/200x150?text=Neckband" },
-  { id: 13, name: "HandFree Earphones", price: 400, category: "Earbuds", image: "/Products/HandFree_1.png" },
-];
-
-/*************  ✨ Windsurf Command ⭐  *************/
-/**
- * A page that displays a list of products in a grid, with the ability to
- * filter by category and add/remove items from a cart. The cart is displayed
- * as a floating button that can be clicked to open the cart component.
- *
- * @param {Object} props The component props
- * @param {Object[]} props.productsData The list of products to display
- * @param {string} props.selectedCategory The currently selected category
- * @param {boolean} props.cartOpen Whether the cart is currently open
- * @param {Function} props.addToCart Add a product to the cart
- * @param {Function} props.increment Increment the quantity of a product in the cart
- * @param {Function} props.decrement Decrement the quantity of a product in the cart
- * @param {Function} props.removeItem Remove a product from the cart
- * @param {number} props.totalPrice The total price of all items in the cart
- * @param {Function} props.placeOrder Place an order with the current cart items
- */
-/*******  4cd1541b-c263-4a9b-9529-a522e89237c2  *******/
 function Products() {
   const [cart, setCart] = useState([]);
   const [selectedCategory, setSelectedCategory] = useState("All");
