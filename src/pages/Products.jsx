@@ -60,7 +60,7 @@ function Products() {
       message += `🔹 ${item.name} (x${item.qty}) = Rs.${item.price * item.qty}\n`;
     });
     message += `\n💰 Total: Rs.${totalPrice}`;
-    const url = `https://wa.me/923041305803?text=${encodeURIComponent(message)}`;
+    const url = `https://wa.me/923142366246?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");
   };
 
