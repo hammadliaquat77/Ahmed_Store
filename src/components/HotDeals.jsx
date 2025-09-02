@@ -13,13 +13,13 @@ import {
 } from "@/components/ui/carousel"
 
 const deals = [
-  { id: 1, title: "Pizza Deal", price: "$10", img: "/HotDeal/Deal_1.png" },
-  { id: 2, title: "Burger Combo", price: "$7", img: "/HotDeal/Deal_1.png" },
-  { id: 3, title: "Pasta Offer", price: "$12", img: "/HotDeal/Deal_1.png" },
-  { id: 4, title: "Fries Pack", price: "$5", img: "/HotDeal/Deal_1.png" },
-  { id: 5, title: "Cold Drink", price: "$3", img: "/HotDeal/Deal_1.png" },
-  { id: 6, title: "Family Meal", price: "$20", img: "/HotDeal/Deal_1.png"},
-]
+  { id: 1, title: "EarBUds", price: "Rs.2500", img: "../Products/Earbuds/EarBuds_7.png" },
+  { id: 2, title: "Smart Watch", price: "Rs.2300", img: "../Products/Watches/Watch_4.png" },
+  { id: 3, title: "Chargers", price: "RS.1400", img: "../Products/Chargers/Charger_1.png" },
+  { id: 4, title: "Speakers", price: "Rs.1500", img: "../Products/Speakers/Speaker_1.png" },
+  { id: 5, title: "Cover", price: "RS.500", img: "../Products/Covers/Cover_5.png" },
+  { id: 6, title: "HeadPhone", price: "Rs.1500", img: "../Products/Accessories/HeadPhone_1.png" },
+];
 
 function HotDeals() {
 

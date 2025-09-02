@@ -1,12 +1,5 @@
 
 const productsData = [
-//   { id: 1, name: "Wireless Earbuds", price: 2500, category: "Earbuds", image: "https://via.placeholder.com/200x150?text=Earbuds" },
-//   { id: 2, name: "Power Bank 10000mAh", price: 3200, category: "Power Banks", image: "https://via.placeholder.com/200x150?text=PowerBank" },
-//   { id: 3, name: "Smart Watch", price: 4500, category: "Smart Watches", image: "https://via.placeholder.com/200x150?text=SmartWatch" },
-//   { id: 4, name: "Bluetooth Speaker", price: 3800, category: "Speakers", image: "https://via.placeholder.com/200x150?text=Speaker" },
-//   { id: 5, name: "Fast Charger 25W", price: 1500, category: "Chargers", image: "/Products/Charger_1.png" },
-//   { id: 6, name: "Fast Charger 20W", price: 300, category: "Accesories", image: "/Products/Charger_2.png" },
-//   { id: 7, name: "Fast Charger 20W", price: 300, category: "Cover", image: "/Products/Charger_2.png" },
 
 // Cabels
   { id: 1, name: "Data Cable", price: 300, category: "Chargers", image: "../Products/Chargers/Cabel_1.png" },
@@ -37,7 +30,8 @@ const productsData = [
   { id: 24, name: "Car Charger", price: 800, category: "Chargers", image: "../Products/Chargers/Car_charger_2.png" },
 
   
-  //   
+  // Watches
+
   { id: 25, name: "Smart Watch", price: 2000, category: "Watches", image: "../Products/Watches/Watch_1.png" },
   { id: 26, name: "Smart Watch", price: 2000, category: "Watches", image: "../Products/Watches/Watch_2.png" },
   { id: 27, name: "Smart Watch", price: 2000, category: "Watches", image: "../Products/Watches/Watch_3.png" },
@@ -49,9 +43,9 @@ const productsData = [
   { id: 33, name: "Smart Watch", price: 2000, category: "Watches", image: "../Products/Watches/Watch_9.png" },
 
   // EarBuds
+
   { id: 34, name: "EarBuds", price: 3000, category: "Earbuds", image: "../Products/Earbuds/EarBuds_1.png" },
   { id: 35, name: "EarBuds", price: 3000, category: "Earbuds", image: "../Products/Earbuds/EarBuds_2.png" },
-  { id: 36, name: "EarBuds", price: 3000, category: "Earbuds", image: "../Products/Earbuds/EarBuds_3.png" },
   { id: 37, name: "EarBuds", price: 3000, category: "Earbuds", image: "../Products/Earbuds/EarBuds_4.png" },
   { id: 38, name: "EarBuds", price: 3000, category: "Earbuds", image: "../Products/Earbuds/EarBuds_5.png" },
   { id: 39, name: "EarBuds", price: 3000, category: "Earbuds", image: "../Products/Earbuds/EarBuds_6.png" },

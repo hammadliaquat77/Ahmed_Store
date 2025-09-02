@@ -1,28 +1,30 @@
 import React from "react";
 import Slider from "react-slick";
+import { NavLink } from 'react-router-dom'
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 
+
 const ImageList = [
   {
     id: 1,
-    img: "/Hero/Image_4.png",
+    img: "/Hero/EarBuds.png",
     title: "Flat 40% Off on Premium Phone Covers",
     description:
       "Protect your phone in style with trendy, durable, and slim-fit mobile covers. Limited-time offer!",
   },
   {
     id: 2,
-    img: "/Hero/Image_5.png",
+    img: "/Hero/HeadPhone.png",
     title: "Up to 30% Off on Smart Watches",
     description:
       "Track fitness, calls, and style with our latest range of smartwatches at unbeatable prices.",
   },
   {
     id: 3,
-    img: "/Hero/Image_6.png",
+    img: "/Hero/Speaker.png",
     title: "Mega Sale on Earphones & Chargers",
     description:
       "Get crystal-clear sound and fast charging accessories with discounts up to 50% off.",
@@ -84,7 +86,15 @@ const Hero = ({ handleOrderPopup }) => {
                       onClick={handleOrderPopup}
                       className="bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full"
                     >
+                    <NavLink 
+                      to="/products" 
+                      smooth={true}
+                      duration={500}
+                      offset={-70}
+                      activeClass="active"
+                      className='text-md hover:text-gray-500 hover:transition-all duration-300 hover:font-bold cursor-pointer'>
                       Order Now
+                    </NavLink>  
                     </button>
                   </div>
                 </div>
@@ -95,7 +105,7 @@ const Hero = ({ handleOrderPopup }) => {
                     <img
                       src={data.img}
                       alt="hero"
-                      className="w-[300px] h-[300px] sm:h-[450px] sm:w-[450px] sm:scale-105 lg:scale-110 object-contain mx-auto"
+                      className="w-[250px] h-[250px] sm:h-[450px] sm:w-[450px] md:h-[400px] md:w-[400px] sm:scale-105 lg:scale-110 object-contain mx-auto"
                     />
                   </div>
                 </div>

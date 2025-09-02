@@ -3,7 +3,6 @@
   import { FiMenu } from "react-icons/fi";
   import { HiXMark } from "react-icons/hi2";
   import { FaShoppingCart } from "react-icons/fa";
-  import { Link } from 'react-scroll';
   import { motion } from "motion/react"
 
 
