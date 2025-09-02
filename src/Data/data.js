@@ -73,7 +73,6 @@ const productsData = [
   { id: 56, name: "Cover", price: 500, category: "Cover", image: "../Products/Covers/Cover_5.png" },
   { id: 57, name: "Cover", price: 500, category: "Cover", image: "../Products/Covers/Cover_6.png" },
   { id: 58, name: "Cover", price: 500, category: "Cover", image: "../Products/Covers/Cover_7.png" },
-  { id: 69, name: "Cover", price: 500, category: "Cover", image: "../Products/Covers/Cover_8.png" },
   { id: 60, name: "Cover", price: 500, category: "Cover", image: "../Products/Covers/Cover_9.png" },
   { id: 61, name: "Cover", price: 500, category: "Cover", image: "../Products/Covers/Cover_10.png" },
   { id: 62, name: "Cover", price: 500, category: "Cover", image: "../Products/Covers/Cover_11.png" },
