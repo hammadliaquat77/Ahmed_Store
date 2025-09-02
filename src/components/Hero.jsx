@@ -47,19 +47,19 @@ const Hero = ({ handleOrderPopup }) => {
 
 
   AOS.init({
-  duration: 1000,
-  once: false,
-  mirror: true,
+    duration: 1000,
+    once: false,
+    mirror: true,
   });
 
 
   return (
     <div id="home"
       className="relative overflow-hidden min-h-[550px] sm:min-h-[650px] flex justify-center items-center w-full bg-cover bg-center pt-10 md:pt-0"
-      style={{ backgroundImage: `url(${"/Hero/Bg_7.jpg"})`,  }}
+      style={{ backgroundImage: `url(${"/Hero/Bg_7.jpg"})`, }}
     >
       {/* overlay (optional) */}
-      <div className="absolute inset-0 bg-black/30"></div> 
+      <div className="absolute inset-0 bg-black/30"></div>
 
       {/* hero section */}
       <div className="container pb-8 sm:pb-0 relative z-10">
@@ -82,25 +82,24 @@ const Hero = ({ handleOrderPopup }) => {
                     {data.description}
                   </p>
                   <div data-aos="fade-up">
-                    <button
-                      onClick={handleOrderPopup}
-                      className="bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full"
+
+                    <NavLink
+                      to="/products"
+                      className="relative cursor-pointer outline-none md:py-4 md:px-8 p-2 px-4 text-center font-barlow inline-flex justify-center text-base uppercase text-white rounded-lg border-solid transition-transform duration-300 ease-in-out group outline-offset-4 focus:outline focus:outline-2 focus:outline-white focus:outline-offset-4 overflow-hidden"
                     >
-                    <NavLink 
-                      to="/products" 
-                      smooth={true}
-                      duration={500}
-                      offset={-70}
-                      activeClass="active"
-                      className='text-md hover:text-gray-500 hover:transition-all duration-300 hover:font-bold cursor-pointer'>
+                      <span className="absolute left-[-75%] top-0 h-full w-[50%] bg-white/20 rotate-12 z-10 blur-lg group-hover:left-[125%] transition-all duration-1000 ease-in-out"></span>
+                      <span className="w-1/2 drop-shadow-3xl transition-all duration-300 block border-[#D4EDF9] absolute h-[20%] rounded-tl-lg border-l-2 border-t-2 top-0 left-0"></span>
+                      <span className="w-1/2 drop-shadow-3xl transition-all duration-300 block border-[#D4EDF9] absolute group-hover:h-[90%] h-[60%] rounded-tr-lg border-r-2 border-t-2 top-0 right-0"></span>
+                      <span className="w-1/2 drop-shadow-3xl transition-all duration-300 block border-[#D4EDF9] absolute h-[60%] group-hover:h-[90%] rounded-bl-lg border-l-2 border-b-2 left-0 bottom-0"></span>
+                      <span className="w-1/2 drop-shadow-3xl transition-all duration-300 block border-[#D4EDF9] absolute h-[20%] rounded-br-lg border-r-2 border-b-2 right-0 bottom-0"></span>
                       Order Now
-                    </NavLink>  
-                    </button>
+                    </NavLink>
+                    
                   </div>
                 </div>
 
                 {/* image section */}
-                <div className="order-1 sm:order-2">
+                <div className="order-1 sm:order-2 pt-6">
                   <div data-aos="zoom-in" className="relative">
                     <img
                       src={data.img}
