@@ -20,7 +20,7 @@ const productsData = [
   { id: 16, name: "Charger", price: 290, category: "Chargers", image: "../Products/Chargers/Cable_16.webp" },
   { id: 17, name: "Charger", price: 290, category: "Chargers", image: "../Products/Chargers/Cable_17.webp" },
   { id: 18, name: "Ronin Data Cable", price: 800, category: "Chargers", image: "../Products/Chargers/Cable_18.webp" },
-  { id: 19, name: "Magnet Cabel", price: 2000, category: "Chargers", image: "../Products/Chargers/Cabel_19.webp" },
+  { id: 19, name: "IPHONE 15 Magnet Cabel", price: 2000, category: "Chargers", image: "../Products/Chargers/Cabel_19.webp" },
   { id: 20, name: "Charger", price: 500, category: "Chargers", image: "../Products/Chargers/Charger_1.webp" },
 
 
@@ -64,12 +64,12 @@ const productsData = [
   { id: 43, name: "UHP9 Wireless HeadPhone", price: 3000, category: "Accessories", image: "../Products/Accessories/HeadPhone_4.webp" },
   { id: 45, name: "Samsung HandFree", price: 1500, category: "Accessories", image: "../Products/Accessories/HandFree_1.webp" },
   { id: 46, name: "Ronin HandFree", price: 1500, category: "Accessories", image: "../Products/Accessories/HandFree_2.webp" },
-  { id: 47, name: "Accessories", price: 500, category: "Accessories", image: "../Products/Accessories/HandFree_3.webp" },
-  { id: 48, name: "Accessories", price: 500, category: "Accessories", image: "../Products/Accessories/PowerBank_1.webp" },
+  { id: 47, name: "HandFree Type C", price: 1000, category: "Accessories", image: "../Products/Accessories/HandFree_3.webp" },
+  { id: 48, name: "Power Bank", price: 2600, category: "Accessories", image: "../Products/Accessories/PowerBank_1.webp" },
   { id: 49, name: "Power Bank", price: 2800, category: "Accessories", image: "../Products/Accessories/PowerBank_2.webp" },
   { id: 50, name: "Power Bank 66w", price: 2800, category: "Accessories", image: "../Products/Accessories/PowerBank_3.webp" },
-  { id: 51, name: "Accessories", price: 500, category: "Accessories", image: "../Products/Accessories/PowerBank_4.webp" },
-  { id: 52, name: "Accessories", price: 500, category: "Accessories", image: "../Products/Accessories/PowerBank_5.webp" },
+  { id: 51, name: "Power Bank", price: 2600, category: "Accessories", image: "../Products/Accessories/PowerBank_4.webp" },
+  { id: 52, name: "Power Bank", price: 2600, category: "Accessories", image: "../Products/Accessories/PowerBank_5.webp" },
   { id: 53, name: "Ska Power Bank", price: 2800, category: "Accessories", image: "../Products/Accessories/PowerBank_6.webp" },
   { id: 54, name: "Wireless Charger", price: 3000, category: "Accessories", image: "../Products/Accessories/PowerBank_7.webp" },
   { id: 55, name: "Mobile Stand", price: 1000, category: "Accessories", image: "../Products/Accessories/Stand_1.webp" },
@@ -79,6 +79,5 @@ const productsData = [
   { id: 59, name: "Accessories", price: 500, category: "Accessories", image: "../Products/Accessories/Glass_4.webp" },
   
 ];
-
 
 export default productsData;

@@ -13,12 +13,12 @@ import {
 } from "@/components/ui/carousel"
 
 const deals = [
-  { id: 1, title: "EarBUds", price: "Rs.2500", img: "../Products/Earbuds/EarBuds_7.png" },
-  { id: 2, title: "Smart Watch", price: "Rs.2300", img: "../Products/Watches/Watch_4.png" },
-  { id: 3, title: "Chargers", price: "RS.1400", img: "../Products/Chargers/Charger_1.png" },
-  { id: 4, title: "Speakers", price: "Rs.1500", img: "../Products/Speakers/Speaker_1.png" },
-  { id: 5, title: "Cover", price: "RS.500", img: "../Products/Covers/Cover_5.png" },
-  { id: 6, title: "HeadPhone", price: "Rs.1500", img: "../Products/Accessories/HeadPhone_1.png" },
+  { id: 1, title: "EarBUds", price: "Rs.2500", img: "../Products/Earbuds/EarBuds_10.webp" },
+  { id: 2, title: "Smart Watch", price: "Rs.2300", img: "../Products/Watches/Watch_2.webp" },
+  { id: 3, title: "Chargers", price: "RS.1400", img: "../Products/Chargers/Charger_1.webp" },
+  { id: 4, title: "Speakers", price: "Rs.1500", img: "../Products/Speakers/Speaker_2.webp" },
+  { id: 5, title: "Cover", price: "RS.500", img: "../Products/Covers/Cover_1.webp" },
+  { id: 6, title: "HeadPhone", price: "Rs.1500", img: "../Products/Accessories/HeadPhone_1.webp" },
 ];
 
 function HotDeals() {

@@ -100,7 +100,7 @@ function Products() {
             <p className="text-gray-600 mb-2 text-sm">Rs. {product.price}</p>
             <button
               onClick={() => addToCart(product)}
-              className="flex items-center gap-2 bg-zinc-900 text-white px-3 py-1.5 rounded-lg hover:bg-zinc-800 transition text-sm"
+              className="flex items-center gap-2 bg-zinc-900 text-white px-6 py-2.5 rounded-lg hover:bg-zinc-800 transition text-sm"
             >
               <FaShoppingCart /> Add
             </button>
