@@ -2,6 +2,7 @@ import React, { useState } from "react";
 // Products Data
 import productsData from "../Data/data.js"
 import { FaShoppingCart } from "react-icons/fa";
+import Cart from "@/components/Cart.jsx";
 
 
 function Products() {
