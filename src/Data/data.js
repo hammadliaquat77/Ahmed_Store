@@ -27,12 +27,12 @@ const productsData = [
   
   // Watches
 
-  { id: 21, name: "Smart Watch", price: 2000, category: "Watches", image: "../Products/Watches/Watch_1.png" },
-  { id: 22, name: "S8 ultra Smart Watch", price: 1800, category: "Watches", image: "../Products/Watches/Watch_2.png" },
-  { id: 23, name: "Smart Watch", price: 2000, category: "Watches", image: "../Products/Watches/Watch_3.png" },
-  { id: 24, name: "10 Series Smart Watch", price: 2000, category: "Watches", image: "../Products/Watches/Watch_4.png" },
-  { id: 25, name: "Smart Watch", price: 2000, category: "Watches", image: "../Products/Watches/Watch_5.png" },
-  { id: 26, name: "Smart Watch", price: 2000, category: "Watches", image: "../Products/Watches/Watch_6.png" },
+  { id: 21, name: "Smart Watch", price: 2000, category: "Watches", image: "../Products/Watches/Watch_1.webp" },
+  { id: 22, name: "S8 ultra Smart Watch", price: 1800, category: "Watches", image: "../Products/Watches/Watch_2.webp" },
+  { id: 23, name: "Smart Watch", price: 2000, category: "Watches", image: "../Products/Watches/Watch_3.webp" },
+  { id: 24, name: "10 Series Smart Watch", price: 2000, category: "Watches", image: "../Products/Watches/Watch_4.webp" },
+  { id: 25, name: "Smart Watch", price: 2000, category: "Watches", image: "../Products/Watches/Watch_5.webp" },
+  { id: 26, name: "Smart Watch", price: 2000, category: "Watches", image: "../Products/Watches/Watch_6.webp" },
   
 
   // EarBuds

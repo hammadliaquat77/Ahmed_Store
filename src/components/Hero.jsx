@@ -10,21 +10,21 @@ import 'aos/dist/aos.css';
 const ImageList = [
   {
     id: 1,
-    img: "/Hero/EarBuds.png",
+    img: "/Hero/EarBuds.webp",
     title: "Flat 40% Off on Premium Phone Covers",
     description:
       "Protect your phone in style with trendy, durable, and slim-fit mobile covers. Limited-time offer!",
   },
   {
     id: 2,
-    img: "/Hero/HeadPhone.png",
+    img: "/Hero/HeadPhone.webp",
     title: "Up to 30% Off on Smart Watches",
     description:
       "Track fitness, calls, and style with our latest range of smartwatches at unbeatable prices.",
   },
   {
     id: 3,
-    img: "/Hero/Speaker.png",
+    img: "/Hero/Speaker.webp",
     title: "Mega Sale on Earphones & Chargers",
     description:
       "Get crystal-clear sound and fast charging accessories with discounts up to 50% off.",
@@ -85,7 +85,7 @@ const Hero = ({ handleOrderPopup }) => {
 
                     <NavLink
                       to="/products"
-                      className="relative cursor-pointer outline-none md:py-4 md:px-8 p-2 px-4 text-center font-barlow inline-flex justify-center text-base uppercase text-white rounded-lg border-solid transition-transform duration-300 ease-in-out group outline-offset-4 focus:outline focus:outline-2 focus:outline-white focus:outline-offset-4 overflow-hidden"
+                      className="relative cursor-pointer outline-none md:py-4 md:px-8 p-2 px-4 text-center font-barlow inline-flex justify-center text-base uppercase text-white rounded-lg border-solid transition-transform duration-300 ease-in-out group outline-offset-4  focus:outline-2 focus:outline-white focus:outline-offset-4 overflow-hidden"
                     >
                       <span className="absolute left-[-75%] top-0 h-full w-[50%] bg-white/20 rotate-12 z-10 blur-lg group-hover:left-[125%] transition-all duration-1000 ease-in-out"></span>
                       <span className="w-1/2 drop-shadow-3xl transition-all duration-300 block border-[#D4EDF9] absolute h-[20%] rounded-tl-lg border-l-2 border-t-2 top-0 left-0"></span>
