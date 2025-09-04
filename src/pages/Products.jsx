@@ -1,9 +1,7 @@
 import React, { useState } from "react";
-import { FaShoppingCart } from "react-icons/fa";
-import Cart from "../components/Cart"; 
-
 // Products Data
 import productsData from "../Data/data.js"
+import { FaShoppingCart } from "react-icons/fa";
 
 
 function Products() {
@@ -95,7 +93,7 @@ function Products() {
             <img
               src={product.image}
               alt={product.name}
-              className="w-32 h-28 object-cover mb-4 rounded-md"
+              className="w-40 h-48 object-cover mb-4 rounded-md"
             />
             <h2 className="text-base font-semibold text-center">{product.name}</h2>
             <p className="text-gray-600 mb-2 text-sm">Rs. {product.price}</p>
