@@ -17,12 +17,8 @@
       <div>
           <div className='w-full bg-zinc-900 text-white p-4 h-16 md:fixed z-50 fixed'>
               <div className='container mx-auto flex justify-between items-center md:w-[85%]'>
-                  <motion.div
-                    animate={{ scale: [1, 1.1, 1] }}
-                    transition={{ repeat: Infinity, duration: 1 }}
-                  >
+                  
                     <h1 className='text-2xl font-bold uppercase'>Asif Store</h1>
-                  </motion.div>
               {/* Desktop */}
               <div className='hidden md:flex space-x-4'>
                   <NavLink 

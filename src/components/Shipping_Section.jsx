@@ -30,9 +30,9 @@ function Shipping_Section() {
               <IoCubeOutline size={24} />
             </div>
             <div className='flex flex-col justify-center gap-1'>
-              <h2 className='font-semibold'>Shipping</h2>
+              <h2 className='font-semibold'>Free Delivery</h2>
               <span className='text-[12px] tracking-tight font-sans text-zinc-600'>
-                You will love at great love prices
+                Only For Karachi
               </span>
             </div>
           </div>
