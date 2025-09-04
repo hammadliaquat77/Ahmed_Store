@@ -76,7 +76,7 @@ const productsData = [
   { id: 56, name: "Accessories", price: 500, category: "Accessories", image: "../Products/Accessories/Glass_1.png" },
   { id: 57, name: "Accessories", price: 500, category: "Accessories", image: "../Products/Accessories/Glass_2.png" },
   { id: 58, name: "Accessories", price: 500, category: "Accessories", image: "../Products/Accessories/Glass_3.png" },
-  { id: 59, name: "Accessories", price: 500, category: "Accessories", image: "../Products/Accessories/Glass_4.png" },
+  // { id: 59, name: "Accessories", price: 500, category: "Accessories", image: "../Products/Accessories/Glass_4.png" },
   
 ];
 
