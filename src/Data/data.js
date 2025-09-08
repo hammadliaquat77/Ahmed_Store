@@ -87,7 +87,7 @@ const productsData = [
   // Mobiles
   { id: 1, name: "Samsung Galaxy A16 (128+6)", price: 44500, category: "mobile", image: "../Products/Mobile/Samsung_A16.webp" },
   { id: 2, name: "Samsung Galaxy A06 (64+4)", price: 22200, category: "mobile", image: "../Products/Mobile/Samsung_A06.webp" },
-  { id: 3, name: "Samsung Galaxy A26 5G (256+8)", price: 3800, category: "mobile", image: "../Products/Mobile/Samsumg_A26.webp" },
+  { id: 3, name: "Samsung Galaxy A26 5G (256+8)", price: 75000, category: "mobile", image: "../Products/Mobile/Samsumg_A26.webp" },
   { id: 4, name: "Itel A90 (128+4)", price: 21000, category: "mobile", image: "../Products/Mobile/Itel_A90.webp" },
   { id: 5, name: "Itel S25 (256+8)", price: 41500, category: "mobile", image: "../Products/Mobile/Itel_S25.webp" },
   { id: 6, name: "Nokia 105", price: 3500, category: "mobile", image: "../Products/Mobile/Nokia_105.webp" },
