@@ -93,7 +93,7 @@ const productsData = [
   { id: 5, name: "Itel S25", price: 3800, category: "mobile", image: "../Products/Mobile/Itel_S25.webp" },
   { id: 6, name: "Nokia 105", price: 3800, category: "mobile", image: "../Products/Mobile/Nokia_105.webp" },
   { id: 7, name: "Nokia 110", price: 3800, category: "mobile", image: "../Products/Mobile/Nokia_110.webp" },
-  { id: 8, name: "Nokia 130", price: 3800, category: "mobile", image: "../Products/Mobile/Nokia_130_music.webp" },
+  { id: 8, name: "Nokia 130", price: 3800, category: "mobile", image: "../Products/Mobile/Nokia_130_Music.webp" },
   { id: 9, name: "Oppo A3x", price: 3800, category: "mobile", image: "../Products/Mobile/Oppo_A3x.webp" },
   { id: 10, name: "Oppo A5", price: 3800, category: "mobile", image: "../Products/Mobile/Oppo_A5.webp" },
   { id: 11, name: "Realme C61", price: 3800, category: "mobile", image: "../Products/Mobile/Realme_C61.webp" },
