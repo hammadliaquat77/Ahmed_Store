@@ -1,5 +1,6 @@
 import React from "react";
-import { Link } from "react-scroll";
+// import { Link } from "react-scroll";
+import { NavLink } from "react-router-dom";
 import { FiFacebook, FiInstagram, FiYoutube } from "react-icons/fi";
 
 function Footer() {
@@ -15,10 +16,35 @@ function Footer() {
 
         {/* Links */}
         <div className="flex flex-col md:flex-row gap-6">
-          <Link to="home" className="hover:text-gray-300">Home</Link>
-          <Link to="shop" className="hover:text-gray-300">Shop</Link>
-          <Link to="about" className="hover:text-gray-300">About</Link>
-          <Link to="contact" className="hover:text-gray-300">Contact</Link>
+          <NavLink to="/#home" 
+            smooth={true}
+            duration={500}
+            offset={-70}
+            activeClass="active" 
+          className="hover:text-gray-300 cursor-pointer">
+            Home
+          </NavLink>
+
+          <NavLink to="/products" 
+            smooth={true}
+            duration={500}
+            offset={-70}
+            activeClass="active" 
+          className="hover:text-gray-300 cursor-pointer">
+            Shop
+          </NavLink>
+
+          <NavLink to="/repairing" 
+            smooth={true}
+            duration={500}
+            offset={-70}
+            activeClass="active" 
+          className="hover:text-gray-300 cursor-pointer">
+            Repairing
+          </NavLink>
+
+
+          <NavLink to="/#contact" className="hover:text-gray-300">Contact</NavLink>
         </div>
 
         {/* Contact / User Info */}
