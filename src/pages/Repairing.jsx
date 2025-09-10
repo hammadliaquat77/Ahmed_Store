@@ -59,7 +59,7 @@ function Repairing() {
           </div>
           <div className="mt-8">
             <a 
-              href="tel:03142366246"
+              href="tel:923142366246"
               className="inline-block bg-indigo-500 text-white font-bold py-3 px-10 rounded-full shadow-lg transition-all duration-300 hover:bg-indigo-600 hover:scale-105"
             >
               Call Now
