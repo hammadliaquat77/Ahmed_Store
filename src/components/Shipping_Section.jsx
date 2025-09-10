@@ -1,5 +1,6 @@
 
 import React from 'react'
+import { NavLink } from 'react-router-dom';
 import { FaMobileAlt } from "react-icons/fa";
 import { AiFillProduct } from "react-icons/ai";
 import { MdPayments } from "react-icons/md";
@@ -43,6 +44,7 @@ function Shipping_Section() {
           </div>
 
           {/* card 2 */}
+          <NavLink to="/repairing">
           <div data-aos="fade-right" className='flex gap-4'>
             <div className='h-12 w-12 bg-zinc-200 rounded-full flex justify-center items-center'>
               <FaMobileAlt size={24} />
@@ -54,6 +56,7 @@ function Shipping_Section() {
               </span>
             </div>
           </div>
+          </NavLink>
 
           {/* card 3 */}
           <div data-aos="fade-right" className='flex gap-4'>
