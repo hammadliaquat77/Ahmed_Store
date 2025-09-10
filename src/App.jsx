@@ -9,6 +9,7 @@ import Products from "./pages/Products";
 
 import { Routes, Route } from "react-router-dom";
 import ScrollToHash from "./components/ScrollToTop";
+import Repairing from "./pages/Repairing";
 
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/products" element={<Products/>} />
-        {/* <Route path="/cart" element={<Cart />} /> */}
+        <Route path="/Repairing" element={<Repairing />} />
       </Routes>
       <Footer/>
     </>

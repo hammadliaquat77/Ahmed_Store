@@ -20,7 +20,7 @@
                   
                     <h1 className='text-2xl font-bold uppercase'>Asif Store</h1>
               {/* Desktop */}
-              <div className='hidden md:flex space-x-4'>
+              <div className='hidden md:flex space-x-6'>
                   <NavLink 
                   to="/#home"  
                   smooth={true}
@@ -60,6 +60,17 @@
                   className='text-md hover:text-gray-500 hover:transition-all duration-300 hover:font-bold cursor-pointer'>
                   Products
                   </NavLink>
+
+                  <NavLink 
+                  to="/repairing" 
+                  smooth={true}
+                  duration={500}
+                  offset={-70}
+                  activeClass="active"
+                  className='text-md hover:text-gray-500 hover:transition-all duration-300 hover:font-bold cursor-pointer'>
+                  Repairing
+                  </NavLink>
+
 
                   <NavLink 
                   to="/#contact"
@@ -119,6 +130,16 @@
                       activeClass="active"
                       onClick={() => setIsOpen(false)} className='block py-2 text-2xl hover:text-gray-500 hover:transition-all duration-300 hover:font-bold'>
                       Products
+                      </NavLink>
+
+                      <NavLink 
+                      to="/repairing" 
+                      smooth={true}
+                      duration={500}
+                      offset={-70}
+                      activeClass="active"
+                      onClick={() => setIsOpen(false)} className='block py-2 text-2xl hover:text-gray-500 hover:transition-all duration-300 hover:font-bold'>
+                      Repairing
                       </NavLink>
 
                       <NavLink 

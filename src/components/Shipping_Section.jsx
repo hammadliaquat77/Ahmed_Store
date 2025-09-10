@@ -1,6 +1,11 @@
 
 import React from 'react'
-import { IoCubeOutline } from "react-icons/io5";
+import { FaMobileAlt } from "react-icons/fa";
+import { AiFillProduct } from "react-icons/ai";
+import { MdPayments } from "react-icons/md";
+import { MdDeliveryDining } from "react-icons/md";
+
+
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -27,7 +32,7 @@ function Shipping_Section() {
           {/* card 1 */}
           <div data-aos="fade-right" className='flex gap-4'>
             <div className='h-12 w-12 bg-zinc-200 rounded-full flex justify-center items-center'>
-              <IoCubeOutline size={24} />
+              <MdDeliveryDining size={24} />
             </div>
             <div className='flex flex-col justify-center gap-1'>
               <h2 className='font-semibold'>Free Delivery</h2>
@@ -40,12 +45,12 @@ function Shipping_Section() {
           {/* card 2 */}
           <div data-aos="fade-right" className='flex gap-4'>
             <div className='h-12 w-12 bg-zinc-200 rounded-full flex justify-center items-center'>
-              <IoCubeOutline size={24} />
+              <FaMobileAlt size={24} />
             </div>
             <div className='flex flex-col justify-center gap-1'>
-              <h2 className='font-semibold'>Flexible Payment</h2>
+              <h2 className='font-semibold'>Mobile Repairing</h2>
               <span className='text-[12px] tracking-tight font-sans text-zinc-600'>
-                Pay With EasyPaisa Jazzcash
+                Repairing Service Available
               </span>
             </div>
           </div>
@@ -53,7 +58,7 @@ function Shipping_Section() {
           {/* card 3 */}
           <div data-aos="fade-right" className='flex gap-4'>
             <div className='h-12 w-12 bg-zinc-200 rounded-full flex justify-center items-center'>
-              <IoCubeOutline size={24} />
+              <AiFillProduct size={24} />
             </div>
             <div className='flex flex-col justify-center gap-1'>
               <h2 className='font-semibold'>Best Quality</h2>
@@ -66,15 +71,16 @@ function Shipping_Section() {
           {/* card 4 */}
           <div data-aos="fade-right" className='flex gap-4'>
             <div className='h-12 w-12 bg-zinc-200 rounded-full flex justify-center items-center'>
-              <IoCubeOutline size={24} />
+              <MdPayments size={24} />
             </div>
             <div className='flex flex-col justify-center gap-1'>
-              <h2 className='font-semibold'>Premium Support</h2>
+              <h2 className='font-semibold'>Flexible Payment</h2>
               <span className='text-[12px] tracking-tight font-sans text-zinc-600'>
-                Outstanding Premium Support
+                Pay With EasyPaisa Jazzcash
               </span>
             </div>
           </div>
+
 
         </div>
       </div>
