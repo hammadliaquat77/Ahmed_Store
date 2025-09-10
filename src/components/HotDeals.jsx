@@ -13,12 +13,13 @@ import {
 } from "@/components/ui/carousel"
 
 const deals = [
-  { id: 1, title: "Sterio EarBuds", price: "Rs.1500", img: "../Products/Earbuds/EarBuds_10.webp" },
-  { id: 2, title: "S8 ultra Smart Watch", price: "Rs.1800", img: "../Products/Watches/Watch_2.webp" },
-  { id: 3, title: "Samsung Chargers", price: "RS.1200", img: "../Products/Chargers/Charger_1.webp" },
-  { id: 4, title: "Speakers", price: "Rs.2000", img: "../Products/Speakers/Speaker_2.webp" },
-  { id: 5, title: "Cover", price: "RS.500", img: "../Products/Covers/Cover_1.webp" },
-  { id: 6, title: "HeadPhone", price: "Rs.3800", img: "../Products/Accessories/HeadPhone_1.webp" },
+  { id: 1, title: "Nokia 105", price: "Rs.3500", img: "../Products/Mobile/Nokia_105.webp" },
+  { id: 2, title: "Sterio EarBuds", price: "Rs.1500", img: "../Products/Earbuds/EarBuds_10.webp" },
+  { id: 3, title: "S8 ultra Smart Watch", price: "Rs.1800", img: "../Products/Watches/Watch_2.webp" },
+  { id: 4, title: "Samsung Chargers", price: "RS.1200", img: "../Products/Chargers/Charger_1.webp" },
+  { id: 5, title: "Speakers", price: "Rs.2000", img: "../Products/Speakers/Speaker_2.webp" },
+  { id: 6, title: "Cover", price: "RS.500", img: "../Products/Covers/Cover_1.webp" },
+  { id: 7, title: "HeadPhone", price: "Rs.3800", img: "../Products/Accessories/HeadPhone_1.webp" },
 ];
 
 function HotDeals() {

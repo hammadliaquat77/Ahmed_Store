@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Cable, Headphones, Battery, Watch, Speaker, Shield } from 'lucide-react';
+import { Cable, Headphones, Battery, Watch, Speaker, Shield, Smartphone } from 'lucide-react';
 import { BsEarbuds } from "react-icons/bs";
 import { NavLink } from 'react-router-dom';
 
@@ -17,14 +17,15 @@ import {
 
 const deals = [
   { id: 1, title: "Power Bank", icon: Battery },
-  { id: 2, title: "Wireless Headphones", icon: Headphones },
-  { id: 3, title: "Phone Case", icon: Shield },
-  { id: 4, title: "Fast Charger", icon: Battery },
-  { id: 5, title: "Type-C Cable", icon: Cable },
-  { id: 6, title: "Smartwatch", icon: Watch },
-  { id: 7, title: "Bluetooth Speaker", icon: Speaker },
-  { id: 8, title: "Screen Protector", icon: Shield },
-  { id: 9, title: "Earbuds", icon: BsEarbuds },
+  { id: 2, title: "Mobiles", icon: Smartphone },
+  { id: 3, title: "Wireless Headphones", icon: Headphones },
+  { id: 4, title: "Phone Case", icon: Shield },
+  { id: 5, title: "Fast Charger", icon: Battery },
+  { id: 6, title: "Type-C Cable", icon: Cable },
+  { id: 7, title: "Smartwatch", icon: Watch },
+  { id: 8, title: "Bluetooth Speaker", icon: Speaker },
+  { id: 9, title: "Screen Protector", icon: Shield },
+  { id: 10, title: "Earbuds", icon: BsEarbuds },
 ];
 
 function ShopCategory() {
