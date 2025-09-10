@@ -17,7 +17,7 @@ const productsData = [
   { id: 13, name: "RC Cable", price: 800, category: "Chargers", image: "../Products/Chargers/Cabel_14.webp" },
   { id: 14, name: "Type C (Fast Data Cable)", price: 1000, category: "Chargers", image: "../Products/Chargers/Cable_15.webp" },
   { id: 15, name: "Type C", price: 800, category: "Chargers", image: "../Products/Chargers/Cable_16.webp" },
-  { id: 16, name: "Charger", price: 290, category: "Chargers", image: "../Products/Chargers/Cable_17.webp" },
+  { id: 16, name: "Cabel", price: 500, category: "Chargers", image: "../Products/Chargers/Cable_17.webp" },
   { id: 17, name: "Ronin Data Cable", price: 800, category: "Chargers", image: "../Products/Chargers/Cable_18.webp" },
   { id: 18, name: "IPHONE 15 Magnet Cabel", price: 2000, category: "Chargers", image: "../Products/Chargers/Cabel_19.webp" },
   { id: 19, name: "Samsung (Fast Charger 25w)", price: 1200, category: "Chargers", image: "../Products/Chargers/Charger_1.webp" },
@@ -32,25 +32,25 @@ const productsData = [
 
   { id: 1, name: "Smart Watch", price: 2000, category: "Watches", image: "../Products/Watches/Watch_1.webp" },
   { id: 2, name: "S8 ultra Smart Watch", price: 1800, category: "Watches", image: "../Products/Watches/Watch_2.webp" },
-  { id: 3, name: "Smart Watch", price: 2000, category: "Watches", image: "../Products/Watches/Watch_3.webp" },
+  { id: 3, name: "Ultra 4 Smart Watch", price: 2000, category: "Watches", image: "../Products/Watches/Watch_3.webp" },
   { id: 4, name: "10 Series Smart Watch", price: 2000, category: "Watches", image: "../Products/Watches/Watch_4.webp" },
-  { id: 5, name: "Smart Watch", price: 2000, category: "Watches", image: "../Products/Watches/Watch_5.webp" },
-  { id: 6, name: "Smart Watch", price: 2000, category: "Watches", image: "../Products/Watches/Watch_6.webp" },
-  { id: 7, name: "Smart Watch", price: 2000, category: "Watches", image: "../Products/Watches/Watch_7.webp" },
+  { id: 5, name: "T800 Ultra Smart Watch", price: 2000, category: "Watches", image: "../Products/Watches/Watch_5.webp" },
+  { id: 6, name: "S1000 Pro Smart Watch", price: 2000, category: "Watches", image: "../Products/Watches/Watch_6.webp" },
+  { id: 7, name: "GT1 Smart Watch", price: 2000, category: "Watches", image: "../Products/Watches/Watch_7.webp" },
   
 
   // EarBuds
-  { id: 1, name: "EarBuds", price: 3000, category: "Earbuds", image: "../Products/Earbuds/EarBuds_1.webp" },
+  { id: 1, name: "ANC EarBuds", price: 3000, category: "Earbuds", image: "../Products/Earbuds/EarBuds_1.webp" },
   { id: 2, name: "M10 EarBuds", price: 1000, category: "Earbuds", image: "../Products/Earbuds/EarBuds_2.webp" },
-  { id: 3, name: "EarBuds", price: 2000, category: "Earbuds", image: "../Products/Earbuds/EarBuds_3.webp" },
-  { id: 4, name: "EarBuds", price: 5000, category: "Earbuds", image: "../Products/Earbuds/EarBuds_5.webp" },
-  { id: 5, name: "EarBuds", price: 3000, category: "Earbuds", image: "../Products/Earbuds/EarBuds_6.webp" },
-  { id: 6, name: "EarBuds", price: 2200, category: "Earbuds", image: "../Products/Earbuds/EarBuds_7.webp" },
-  { id: 7, name: "EarBuds", price: 3000, category: "Earbuds", image: "../Products/Earbuds/EarBuds_9.webp" },
-  { id: 8, name: "STEREO EarBuds", price: 1200, category: "Earbuds", image: "../Products/Earbuds/EarBuds_10.webp" },
-  { id: 9, name: "EarBuds", price: 3000, category: "Earbuds", image: "../Products/Earbuds/EarBuds_4.webp" },
-  { id: 10, name: "EarBuds", price: 3000, category: "Earbuds", image: "../Products/Earbuds/EarBuds_11.webp" },
-  { id: 11, name: "EarBuds", price: 3000, category: "Earbuds", image: "../Products/Earbuds/EarBuds_12.webp" },
+  { id: 3, name: "EarBud Pro (white)", price: 2000, category: "Earbuds", image: "../Products/Earbuds/EarBuds_3.webp" },
+  { id: 4, name: "ANC Pro EarBuds", price: 5000, category: "Earbuds", image: "../Products/Earbuds/EarBuds_5.webp" },
+  { id: 5, name: "Universal EarBuds", price: 3000, category: "Earbuds", image: "../Products/Earbuds/EarBuds_6.webp" },
+  { id: 6, name: "EarBud Pro (black)", price: 2200, category: "Earbuds", image: "../Products/Earbuds/EarBuds_7.webp" },
+  { id: 7, name: "Pro 2 EarBuds", price: 2000, category: "Earbuds", image: "../Products/Earbuds/EarBuds_9.webp" },
+  { id: 8, name: "STEREO EarBuds", price: 1500, category: "Earbuds", image: "../Products/Earbuds/EarBuds_10.webp" },
+  { id: 9, name: "Super Bass EarBuds", price: 3000, category: "Earbuds", image: "../Products/Earbuds/EarBuds_4.webp" },
+  { id: 10, name: "ENC EarBuds", price: 3000, category: "Earbuds", image: "../Products/Earbuds/EarBuds_11.webp" },
+  { id: 11, name: "TWS EarBuds", price: 3000, category: "Earbuds", image: "../Products/Earbuds/EarBuds_12.webp" },
 
 
   // Speakers
